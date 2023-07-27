@@ -4,6 +4,7 @@ on:
 
 jobs:
   build:
+    permissions: write-all
     name: Build and Run Tests
     runs-on: ubuntu-latest
     steps:
